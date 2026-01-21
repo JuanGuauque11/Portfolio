@@ -12,12 +12,36 @@
 }
 
 body{
+cursor: none;
 background-color: black;
 min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
 font-family: "ClashDisplay", sans-serif;
+}
+
+.custom-cursor {
+  width: 18px;
+  height: 18px;
+    background: transparent;
+  border: 2px solid #ff2b00;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease;
+}
+
+/* Opcional: estado hover */
+a:hover ~ .custom-cursor,
+button:hover ~ .custom-cursor {
+  width: 32px;
+  height: 32px;
+  background: rgb(0, 0, 0);
 }
 
 h6{
@@ -37,10 +61,10 @@ h6{
   color: #FF2B00;
   background: #000;
   border: none;
-  cursor: pointer;
   font-family: "ClashDisplay";
   font-weight: 200;
   font-size: 25px;
+  cursor: none;
   animation: fadeIn 1s ease forwards;
   transform: translateY(0);
   transition: transform 0.25s ease;
@@ -84,7 +108,7 @@ h6{
   position: fixed;
   inset: 0;
   background-color: #000; /* fondo negro */
-  background-image: radial-gradient(#3f3f46 1px, transparent 1px);
+  background-image: radial-gradient(#ffffff 1px, transparent 1px);
   background-size: 24px 24px;
   z-index: -1;
 }

@@ -184,8 +184,13 @@ background: #ffff;
 
   .descripcion{
     font-size: 15px;
-    bottom: 800px;
+    bottom: 500px;
     left: 30px;
+  }
+
+  .aux{
+    font-size: 20px;
+    gap: 10px;
   }
 
   .skills-container{

@@ -183,7 +183,7 @@ background: #ffff;
   }
 
   .skills-container{
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
     bottom: 70px;
     left: 30px;

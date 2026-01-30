@@ -184,7 +184,7 @@ background: #ffff;
 
   .descripcion{
     font-size: 15px;
-    bottom: 200px;
+    bottom: 800px;
     left: 30px;
   }
 
@@ -194,6 +194,8 @@ background: #ffff;
     bottom: 70px;
     left: 30px;
     right: 30px;
+    height: auto;
+    width: auto;
   }
 
   .titulo-proyectos{

@@ -168,7 +168,7 @@ background: #ffff;
   right: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   h1{
     top: 10px;

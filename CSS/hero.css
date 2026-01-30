@@ -90,7 +90,7 @@ h1{
 .descripcion{
   max-width: 70ch;
   position: absolute;
-  bottom: 170px;
+  bottom: 220px;
   left: 50px;
   width: 200ch;
   color: #ffff;
@@ -169,11 +169,11 @@ background: #ffff;
 
 @media (max-width: 768px) {
   .nombre{
-    font-size: 100vh;
+    font-size: 100px;
   }
 
   .apellido{
-    font-size: 140vh;
+    font-size: 140px;
   }
 
   .descripcion{
@@ -191,7 +191,7 @@ background: #ffff;
   }
 
   .titulo-proyectos{
-    font-size: 100vh;
+    font-size: 100px;
     right: 30px;
   }
   

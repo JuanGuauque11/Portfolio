@@ -166,3 +166,33 @@ background: #ffff;
   font-size: 150px;
   right: 50px;
 }
+
+@media (max-width: 768px) {
+  .nombre{
+    font-size: 100px;
+  }
+
+  .apellido{
+    font-size: 140px;
+  }
+
+  .descripcion{
+    font-size: 25px;
+    bottom: 150px;
+    left: 30px;
+  }
+
+  .skills-container{
+    flex-wrap: wrap;
+    gap: 20px;
+    bottom: 70px;
+    left: 30px;
+    right: 30px;
+  }
+
+  .titulo-proyectos{
+    font-size: 100px;
+    right: 30px;
+  }
+  
+}

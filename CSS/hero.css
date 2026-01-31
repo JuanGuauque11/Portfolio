@@ -117,7 +117,6 @@ color: #ffff;
   position: absolute;
   bottom: 90px;
   left: 50px;
-  right: 50px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -126,7 +125,7 @@ color: #ffff;
 
 .skill-pill{
   background-color: #ffff;
-  padding: 10px 20px;
+  padding: 10px 15px;
   color: #FF2B00;
   border-radius: 15px;
   font-size: 15px;
@@ -168,25 +167,32 @@ background: #ffff;
   right: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
   h1{
-    top: 10px;
+    top: 100px;
     left: 30px;
     line-height: 50px;
   }
   .nombre{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .apellido{
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .descripcion{
-    font-size: 20px;
+    font-size: 15px;
+    min-height: 100px;
     bottom: 300px;
     left: 30px;
+  }
+
+  .info{
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
   }
 
   .aux{
@@ -198,12 +204,18 @@ background: #ffff;
     flex-wrap: wrap;
     gap: 20px;
     bottom: 100px;
-    left: 30px;
+    left: 20px;
+  }
+
+  .skill-pill{
+    font-size: 12px;
+    padding: 5px 10px;
   }
 
   .titulo-proyectos{
     font-size: 50px;
-    right: 30px;
+    padding: 10px;
+    left: 10px;
   }
   
 }
